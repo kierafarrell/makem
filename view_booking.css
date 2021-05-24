@@ -1,0 +1,53 @@
+body {font-family: Verdana, sans-serif;}
+
+h1 {
+    text-align:center;
+}
+
+#booking {
+    font-family: verdana, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #booking td, #booking th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #booking tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #booking tr:hover {background-color: #ddd;}
+  
+  #booking th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  .button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    width: 300px;
+    height: 50px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-align:center;
+  }
+
+  button:hover {
+    opacity: 0.8;
+  }
+
+  .center {
+    text-align: center;
+  }

@@ -1,0 +1,134 @@
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+h1 {
+    text-align:center;
+}
+
+/* Month header */
+.month {
+  padding: 70px 25px;
+  width: 100%;
+  background: #1abc9c;
+  text-align: center;
+}
+
+/* Month list */
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* Previous button inside month header */
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+/* Next button */
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+  margin: 0;
+  padding: 15px 0;
+  background-color:#ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+}
+
+/* Highlight the full day */
+.days li .f {
+  padding: 5px;
+  background: #bc1a1a;
+  color: white !important
+}
+
+/* Highlight the Medium to full day */
+.days li .mtof {
+    padding: 5px;
+    background: #ff7b00;
+    color: white !important
+  }
+
+/* Highlight the Medium day */
+.days li .m {
+    padding: 5px;
+    background: #ffee00;
+    color: rgb(0, 0, 0) !important
+  }
+/* Highlight the Empty to Medium day */
+.days li .etom {
+    padding: 5px;
+    background: #1aa4bc;
+    color: white !important
+  }
+
+/* Highlight the Empty to Medium day */
+.days li .e {
+    padding: 5px;
+    background: #1abc35;
+    color: white !important
+  }
+
+.days li .n {
+    padding: 5px;
+    color: rgb(0, 0, 0) !important
+  }
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  width: 300px;
+  height: 50px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  text-align:center;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.center {
+  text-align: center;
+}
