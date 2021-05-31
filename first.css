@@ -22,11 +22,11 @@ h1 {
     text-align:center;
   }
 
-  .center {
-    text-align: center;
-  }
+.center {
+  text-align: center;
+}
 
-    /* Add a hover effect for buttons */
-    button:hover {
-        opacity: 0.8;
-      }
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
